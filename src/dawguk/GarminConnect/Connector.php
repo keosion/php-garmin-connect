@@ -35,6 +35,7 @@ class Connector
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_SSL_VERIFYHOST => false,
       CURLOPT_SSL_VERIFYPEER => false,
+      CURLOPT_SSLVERSION => 6,
       CURLOPT_COOKIESESSION => false,
       CURLOPT_AUTOREFERER => true,
       CURLOPT_VERBOSE => false,
